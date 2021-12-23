@@ -1,0 +1,41 @@
+ul>li{
+    display:inline;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.doc:hover{
+    font-family: 'Times New Roman', Times, serif;
+    color:green ;
+    
+}
+
+#resume{
+    background-color: greenyellow;
+}
+
+#work{
+    background-color: khaki;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+}
+@keyframes moves {
+    from {left :0px
+;} 
+to {left: 100px;}}
+.moha{
+    position:relative;
+    animation: moves 10s infinite ;
+}
+#contact {
+    background-color: lawngreen;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+}
+.ok{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
